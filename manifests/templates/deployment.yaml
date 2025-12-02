@@ -20,7 +20,7 @@ spec:
       serviceAccountName: ingress-manager
       containers:
         - name: next-deploy-d840b523
-          image: docker.io/phengbunath/next-deploy-d840b523:2
+          image: docker.io/phengbunath/next-deploy-d840b523:3
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
